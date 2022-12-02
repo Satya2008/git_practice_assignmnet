@@ -1,9 +1,9 @@
 1. find is it prime or not?
 let num=13;
 let count=0;
-for(let i=0; i>=13; i++)
+for(let i=0; i<=num; i++)
 {
-if(num%2==0)
+if(num%i==0)
 {
 count++
 }
@@ -16,11 +16,11 @@ console.log("it is not prime")
 }
 2. Given string is palindrome or not?
 let str="masai";
-let sum=0;
-for(let i=; i<=str.length; i++){
+let bag='';
+for(let i<=str.length-1;i>=0; i--){
 bag+=str[i];
 }
-if(str[i]==bag){
+if(str==bag){
 console.log("It is palindrome")
 }else{
 console.log("It is not palindrome")
